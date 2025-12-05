@@ -1,0 +1,91 @@
+<mxfile host="Electron" modified="2025-11-20T11:17:15.499Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.5.0 Chrome/112.0.5615.204 Electron/24.5.1 Safari/537.36" etag="YvoPqSlF4xD4mKs1llkO" version="21.5.0" type="device">
+  <diagram name="第 1 页" id="FsVKDc5ClOenf4bzvll2">
+    <mxGraphModel dx="1219" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JBu-qquZwQs_1B4XmXB2-1" value="4 bit&lt;br&gt;Version" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="120" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JBu-qquZwQs_1B4XmXB2-2" value="128bit&lt;br&gt;Source Address" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="200" width="640" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="JBu-qquZwQs_1B4XmXB2-4" value="8 bit&lt;br&gt;Traffic Class" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="120" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JBu-qquZwQs_1B4XmXB2-5" value="20 bit&lt;br&gt;Flow Lable" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="120" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JBu-qquZwQs_1B4XmXB2-6" value="0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="90" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JBu-qquZwQs_1B4XmXB2-7" value="15 16" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="410" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JBu-qquZwQs_1B4XmXB2-8" value="31" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="730" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JBu-qquZwQs_1B4XmXB2-9" value="16 bit&lt;br&gt;Payload Length" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="160" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JBu-qquZwQs_1B4XmXB2-10" value="8bit &lt;br&gt;Next Header" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="160" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JBu-qquZwQs_1B4XmXB2-11" value="8 bit&lt;br&gt;Hop Limit" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="160" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JBu-qquZwQs_1B4XmXB2-12" value="128bit&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Destination Address" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="360" width="640" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="JBu-qquZwQs_1B4XmXB2-14" value="Data" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="560" width="640" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JBu-qquZwQs_1B4XmXB2-13" value="Extension Headers" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="520" width="640" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LCM5l1tQ5o-739_2MyEe-1" value="Hdr Ext Len = 1&lt;br&gt;总长度 = (1 + 1) * 8 = 16B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="720" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LCM5l1tQ5o-739_2MyEe-2" value="Next Header = B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="720" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LCM5l1tQ5o-739_2MyEe-6" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.polygon;polyCoords=[[0.5,0.25],[0.5,0],[1,0],[1,1],[0.69,1],[0.39,1],[0,1],[0,0.25]];polyline=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="720" width="640" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="LCM5l1tQ5o-739_2MyEe-8" value="Hdr Ext Len = 0&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;总长度 = (0 + 1) * 8 = 8B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="880" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LCM5l1tQ5o-739_2MyEe-9" value="Next Header = TCP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="880" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LCM5l1tQ5o-739_2MyEe-10" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.polygon;polyCoords=[[0.5,0.5],[0.5,0],[1,0],[1,1],[0.69,1],[0.39,1],[0,1],[0,0.5]];polyline=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="880" width="640" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LCM5l1tQ5o-739_2MyEe-11" value="TCP Data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="960" width="640" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LCM5l1tQ5o-739_2MyEe-12" value="IPv6 头&lt;br&gt;Next Header = A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="680" width="640" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LCM5l1tQ5o-739_2MyEe-13" value="8 bit&lt;br&gt;Hdr Ext Len" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1040" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LCM5l1tQ5o-739_2MyEe-14" value="8 bit &lt;br&gt;Next Header" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1040" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LCM5l1tQ5o-739_2MyEe-15" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.polygon;polyCoords=[[0.5,0.5],[0.5,0],[1,0],[1,1],[0.69,1],[0.39,1],[0,1],[0,0.5]];polyline=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1040" width="640" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LCM5l1tQ5o-739_2MyEe-17" value="Data/填充&lt;br&gt;of Extension Header A&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="785" width="640" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LCM5l1tQ5o-739_2MyEe-18" value="Data/填充&lt;br&gt;of Extension Header" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1080" width="640" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LCM5l1tQ5o-739_2MyEe-20" value="Data/填充&lt;br&gt;of Extension Header B&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="920" width="640" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
